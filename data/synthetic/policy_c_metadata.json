@@ -1,0 +1,20 @@
+{
+  "policy_id": "POL-C-001",
+  "policy_name": "Comprehensive Premium",
+  "insurer": "Synthetic Insurance Ltd",
+  "sum_insured": 1000000,
+  "waiting_period_days": 0,
+  "policy_start_date": "2024-01-01",
+  "room_rent_limit_per_day": 10000,
+  "icu_limit_per_day": 20000,
+  "co_payment_percent": 0,
+  "empanelled_hospitals": [],
+  "exclusions_list": [
+    "dental",
+    "infertility treatment"
+  ],
+  "covered_procedures": [],
+  "pre_existing_conditions": [],
+  "day_care_procedures": [],
+  "consumables_excluded": false
+}

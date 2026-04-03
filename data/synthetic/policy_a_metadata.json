@@ -1,0 +1,34 @@
+{
+  "policy_id": "POL-A-001",
+  "policy_name": "Health Shield Gold",
+  "insurer": "Synthetic Insurance Ltd",
+  "sum_insured": 500000,
+  "waiting_period_days": 30,
+  "policy_start_date": "2025-01-01",
+  "room_rent_limit_per_day": 5000,
+  "icu_limit_per_day": 10000,
+  "co_payment_percent": 10,
+  "empanelled_hospitals": [
+    "Apollo Hospital Delhi",
+    "Fortis Hospital Mumbai"
+  ],
+  "exclusions_list": [
+    "cosmetic",
+    "cataract",
+    "dental"
+  ],
+  "covered_procedures": [
+    "appendectomy",
+    "bypass surgery",
+    "angioplasty"
+  ],
+  "pre_existing_conditions": [
+    "diabetes",
+    "hypertension"
+  ],
+  "day_care_procedures": [
+    "chemotherapy",
+    "dialysis"
+  ],
+  "consumables_excluded": false
+}

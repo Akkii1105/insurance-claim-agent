@@ -1,0 +1,294 @@
+[
+  {
+    "test_id": "TC_001",
+    "bill_file": "bill_001.pdf",
+    "policy_file": "policy_c.pdf",
+    "metadata_file": "policy_c_metadata.json",
+    "expected_status": "approved",
+    "expected_rules_fired": [],
+    "expected_citation_pages": [],
+    "scenario": "Clean claim - fully covered"
+  },
+  {
+    "test_id": "TC_002",
+    "bill_file": "bill_002.pdf",
+    "policy_file": "policy_c.pdf",
+    "metadata_file": "policy_c_metadata.json",
+    "expected_status": "approved",
+    "expected_rules_fired": [],
+    "expected_citation_pages": [],
+    "scenario": "Clean claim - fully covered"
+  },
+  {
+    "test_id": "TC_003",
+    "bill_file": "bill_003.pdf",
+    "policy_file": "policy_c.pdf",
+    "metadata_file": "policy_c_metadata.json",
+    "expected_status": "approved",
+    "expected_rules_fired": [],
+    "expected_citation_pages": [],
+    "scenario": "Clean claim - fully covered"
+  },
+  {
+    "test_id": "TC_004",
+    "bill_file": "bill_004.pdf",
+    "policy_file": "policy_c.pdf",
+    "metadata_file": "policy_c_metadata.json",
+    "expected_status": "approved",
+    "expected_rules_fired": [],
+    "expected_citation_pages": [],
+    "scenario": "Clean claim - fully covered"
+  },
+  {
+    "test_id": "TC_005",
+    "bill_file": "bill_005.pdf",
+    "policy_file": "policy_c.pdf",
+    "metadata_file": "policy_c_metadata.json",
+    "expected_status": "approved",
+    "expected_rules_fired": [],
+    "expected_citation_pages": [],
+    "scenario": "Clean claim - fully covered"
+  },
+  {
+    "test_id": "TC_006",
+    "bill_file": "bill_006.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R01"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Excluded procedure - cosmetic"
+  },
+  {
+    "test_id": "TC_007",
+    "bill_file": "bill_007.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R01"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Excluded procedure - cataract"
+  },
+  {
+    "test_id": "TC_008",
+    "bill_file": "bill_008.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R01"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Excluded procedure - dental"
+  },
+  {
+    "test_id": "TC_009",
+    "bill_file": "bill_009.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R01"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Excluded procedure - cosmetic"
+  },
+  {
+    "test_id": "TC_010",
+    "bill_file": "bill_010.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R01"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Excluded procedure - dental"
+  },
+  {
+    "test_id": "TC_011",
+    "bill_file": "bill_011.pdf",
+    "policy_file": "policy_b.pdf",
+    "metadata_file": "policy_b_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R05"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Exceeds sum insured"
+  },
+  {
+    "test_id": "TC_012",
+    "bill_file": "bill_012.pdf",
+    "policy_file": "policy_b.pdf",
+    "metadata_file": "policy_b_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R05"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Exceeds sum insured"
+  },
+  {
+    "test_id": "TC_013",
+    "bill_file": "bill_013.pdf",
+    "policy_file": "policy_b.pdf",
+    "metadata_file": "policy_b_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R05"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Exceeds sum insured"
+  },
+  {
+    "test_id": "TC_014",
+    "bill_file": "bill_014.pdf",
+    "policy_file": "policy_b.pdf",
+    "metadata_file": "policy_b_metadata.json",
+    "expected_status": "rejected",
+    "expected_rules_fired": [
+      "R02"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Within waiting period"
+  },
+  {
+    "test_id": "TC_015",
+    "bill_file": "bill_015.pdf",
+    "policy_file": "policy_b.pdf",
+    "metadata_file": "policy_b_metadata.json",
+    "expected_status": "rejected",
+    "expected_rules_fired": [
+      "R02"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Within waiting period"
+  },
+  {
+    "test_id": "TC_016",
+    "bill_file": "bill_016.pdf",
+    "policy_file": "policy_b.pdf",
+    "metadata_file": "policy_b_metadata.json",
+    "expected_status": "rejected",
+    "expected_rules_fired": [
+      "R02"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Within waiting period"
+  },
+  {
+    "test_id": "TC_017",
+    "bill_file": "bill_017.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R03"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Room rent exceeds sub-limit"
+  },
+  {
+    "test_id": "TC_018",
+    "bill_file": "bill_018.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R03"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Room rent exceeds sub-limit"
+  },
+  {
+    "test_id": "TC_019",
+    "bill_file": "bill_019.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R03"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Room rent exceeds sub-limit"
+  },
+  {
+    "test_id": "TC_020",
+    "bill_file": "bill_020.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "rejected",
+    "expected_rules_fired": [
+      "R10"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Non-network hospital"
+  },
+  {
+    "test_id": "TC_021",
+    "bill_file": "bill_021.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "rejected",
+    "expected_rules_fired": [
+      "R10"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Non-network hospital"
+  },
+  {
+    "test_id": "TC_022",
+    "bill_file": "bill_022.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R07"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Pre-existing condition - Diabetic nephropathy complications"
+  },
+  {
+    "test_id": "TC_023",
+    "bill_file": "bill_023.pdf",
+    "policy_file": "policy_a.pdf",
+    "metadata_file": "policy_a_metadata.json",
+    "expected_status": "partially_approved",
+    "expected_rules_fired": [
+      "R07"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Pre-existing condition - Hypertensive emergency"
+  },
+  {
+    "test_id": "TC_024",
+    "bill_file": "bill_024.pdf",
+    "policy_file": "policy_b.pdf",
+    "metadata_file": "policy_b_metadata.json",
+    "expected_status": "rejected",
+    "expected_rules_fired": [
+      "R01",
+      "R10"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Multiple rules - exclusion + non-network + consumables"
+  },
+  {
+    "test_id": "TC_025",
+    "bill_file": "bill_025.pdf",
+    "policy_file": "policy_b.pdf",
+    "metadata_file": "policy_b_metadata.json",
+    "expected_status": "rejected",
+    "expected_rules_fired": [
+      "R02",
+      "R05"
+    ],
+    "expected_citation_pages": [],
+    "scenario": "Multiple rules - waiting period + exceeds sum insured"
+  }
+]

@@ -34,6 +34,9 @@ class Settings(BaseSettings):
     faiss_similarity_threshold: float = 1.2
     top_k_results: int = 5
 
+    # ── Decision Engine ──
+    use_llm_summary: bool = False
+
     model_config = {
         "env_file": ".env",
         "env_file_encoding": "utf-8",

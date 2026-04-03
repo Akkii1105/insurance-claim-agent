@@ -1,0 +1,34 @@
+{
+  "policy_id": "POL-B-001",
+  "policy_name": "Health Basic Plan",
+  "insurer": "Synthetic Insurance Ltd",
+  "sum_insured": 300000,
+  "waiting_period_days": 60,
+  "policy_start_date": "2025-03-01",
+  "room_rent_limit_per_day": 3000,
+  "icu_limit_per_day": 7000,
+  "co_payment_percent": 20,
+  "empanelled_hospitals": [
+    "Max Hospital Noida",
+    "AIIMS Delhi"
+  ],
+  "exclusions_list": [
+    "cosmetic",
+    "hernia repair",
+    "infertility treatment"
+  ],
+  "covered_procedures": [
+    "knee replacement",
+    "dialysis",
+    "appendectomy"
+  ],
+  "pre_existing_conditions": [
+    "asthma",
+    "diabetes"
+  ],
+  "day_care_procedures": [
+    "cataract surgery",
+    "chemotherapy"
+  ],
+  "consumables_excluded": true
+}

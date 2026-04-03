@@ -1,0 +1,467 @@
+{
+  "metrics": {
+    "decision_accuracy": 100.0,
+    "rule_precision": 100.0,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.0,
+    "avg_processing_time": 0.82,
+    "total_cases": 25,
+    "passed": 25,
+    "failed": 0
+  },
+  "test_cases": [
+    {
+      "test_id": "TC_001",
+      "expected_status": "approved",
+      "actual_status": "approved",
+      "status_match": true,
+      "expected_rules": [],
+      "actual_rules": [],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 9.812,
+      "error": null,
+      "scenario": "Clean claim - fully covered"
+    },
+    {
+      "test_id": "TC_002",
+      "expected_status": "approved",
+      "actual_status": "approved",
+      "status_match": true,
+      "expected_rules": [],
+      "actual_rules": [],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.407,
+      "error": null,
+      "scenario": "Clean claim - fully covered"
+    },
+    {
+      "test_id": "TC_003",
+      "expected_status": "approved",
+      "actual_status": "approved",
+      "status_match": true,
+      "expected_rules": [],
+      "actual_rules": [],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.406,
+      "error": null,
+      "scenario": "Clean claim - fully covered"
+    },
+    {
+      "test_id": "TC_004",
+      "expected_status": "approved",
+      "actual_status": "approved",
+      "status_match": true,
+      "expected_rules": [],
+      "actual_rules": [],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.422,
+      "error": null,
+      "scenario": "Clean claim - fully covered"
+    },
+    {
+      "test_id": "TC_005",
+      "expected_status": "approved",
+      "actual_status": "approved",
+      "status_match": true,
+      "expected_rules": [],
+      "actual_rules": [],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.515,
+      "error": null,
+      "scenario": "Clean claim - fully covered"
+    },
+    {
+      "test_id": "TC_006",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R01"
+      ],
+      "actual_rules": [
+        "R01",
+        "R06"
+      ],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.422,
+      "error": null,
+      "scenario": "Excluded procedure - cosmetic"
+    },
+    {
+      "test_id": "TC_007",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R01"
+      ],
+      "actual_rules": [
+        "R01"
+      ],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.407,
+      "error": null,
+      "scenario": "Excluded procedure - cataract"
+    },
+    {
+      "test_id": "TC_008",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R01"
+      ],
+      "actual_rules": [
+        "R01"
+      ],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.421,
+      "error": null,
+      "scenario": "Excluded procedure - dental"
+    },
+    {
+      "test_id": "TC_009",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R01"
+      ],
+      "actual_rules": [
+        "R01"
+      ],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.5,
+      "error": null,
+      "scenario": "Excluded procedure - cosmetic"
+    },
+    {
+      "test_id": "TC_010",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R01"
+      ],
+      "actual_rules": [
+        "R01"
+      ],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.407,
+      "error": null,
+      "scenario": "Excluded procedure - dental"
+    },
+    {
+      "test_id": "TC_011",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R05"
+      ],
+      "actual_rules": [
+        "R03",
+        "R05",
+        "R06"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        2,
+        5
+      ],
+      "processing_time": 0.437,
+      "error": null,
+      "scenario": "Exceeds sum insured"
+    },
+    {
+      "test_id": "TC_012",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R05"
+      ],
+      "actual_rules": [
+        "R03",
+        "R05",
+        "R06"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        2,
+        5
+      ],
+      "processing_time": 0.547,
+      "error": null,
+      "scenario": "Exceeds sum insured"
+    },
+    {
+      "test_id": "TC_013",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R05"
+      ],
+      "actual_rules": [
+        "R03",
+        "R05",
+        "R06"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        2,
+        5
+      ],
+      "processing_time": 0.422,
+      "error": null,
+      "scenario": "Exceeds sum insured"
+    },
+    {
+      "test_id": "TC_014",
+      "expected_status": "rejected",
+      "actual_status": "rejected",
+      "status_match": true,
+      "expected_rules": [
+        "R02"
+      ],
+      "actual_rules": [
+        "R02"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        5
+      ],
+      "processing_time": 0.422,
+      "error": null,
+      "scenario": "Within waiting period"
+    },
+    {
+      "test_id": "TC_015",
+      "expected_status": "rejected",
+      "actual_status": "rejected",
+      "status_match": true,
+      "expected_rules": [
+        "R02"
+      ],
+      "actual_rules": [
+        "R02"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        5
+      ],
+      "processing_time": 0.422,
+      "error": null,
+      "scenario": "Within waiting period"
+    },
+    {
+      "test_id": "TC_016",
+      "expected_status": "rejected",
+      "actual_status": "rejected",
+      "status_match": true,
+      "expected_rules": [
+        "R02"
+      ],
+      "actual_rules": [
+        "R02"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        5
+      ],
+      "processing_time": 0.406,
+      "error": null,
+      "scenario": "Within waiting period"
+    },
+    {
+      "test_id": "TC_017",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R03"
+      ],
+      "actual_rules": [
+        "R03"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        5
+      ],
+      "processing_time": 0.547,
+      "error": null,
+      "scenario": "Room rent exceeds sub-limit"
+    },
+    {
+      "test_id": "TC_018",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R03"
+      ],
+      "actual_rules": [
+        "R03"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        5
+      ],
+      "processing_time": 0.453,
+      "error": null,
+      "scenario": "Room rent exceeds sub-limit"
+    },
+    {
+      "test_id": "TC_019",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R03"
+      ],
+      "actual_rules": [
+        "R03"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        5
+      ],
+      "processing_time": 0.406,
+      "error": null,
+      "scenario": "Room rent exceeds sub-limit"
+    },
+    {
+      "test_id": "TC_020",
+      "expected_status": "rejected",
+      "actual_status": "rejected",
+      "status_match": true,
+      "expected_rules": [
+        "R10"
+      ],
+      "actual_rules": [
+        "R10"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        2,
+        5
+      ],
+      "processing_time": 0.547,
+      "error": null,
+      "scenario": "Non-network hospital"
+    },
+    {
+      "test_id": "TC_021",
+      "expected_status": "rejected",
+      "actual_status": "rejected",
+      "status_match": true,
+      "expected_rules": [
+        "R10"
+      ],
+      "actual_rules": [
+        "R10"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        2,
+        5
+      ],
+      "processing_time": 0.406,
+      "error": null,
+      "scenario": "Non-network hospital"
+    },
+    {
+      "test_id": "TC_022",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R07"
+      ],
+      "actual_rules": [
+        "R07"
+      ],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.422,
+      "error": null,
+      "scenario": "Pre-existing condition - Diabetic nephropathy complications"
+    },
+    {
+      "test_id": "TC_023",
+      "expected_status": "partially_approved",
+      "actual_status": "partially_approved",
+      "status_match": true,
+      "expected_rules": [
+        "R07"
+      ],
+      "actual_rules": [
+        "R07"
+      ],
+      "rules_match": true,
+      "citation_pages": [],
+      "processing_time": 0.391,
+      "error": null,
+      "scenario": "Pre-existing condition - Hypertensive emergency"
+    },
+    {
+      "test_id": "TC_024",
+      "expected_status": "rejected",
+      "actual_status": "rejected",
+      "status_match": true,
+      "expected_rules": [
+        "R01",
+        "R10"
+      ],
+      "actual_rules": [
+        "R01",
+        "R06",
+        "R08",
+        "R10"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        9
+      ],
+      "processing_time": 0.531,
+      "error": null,
+      "scenario": "Multiple rules - exclusion + non-network + consumables"
+    },
+    {
+      "test_id": "TC_025",
+      "expected_status": "rejected",
+      "actual_status": "rejected",
+      "status_match": true,
+      "expected_rules": [
+        "R02",
+        "R05"
+      ],
+      "actual_rules": [
+        "R02",
+        "R03",
+        "R05",
+        "R06"
+      ],
+      "rules_match": true,
+      "citation_pages": [
+        2,
+        5
+      ],
+      "processing_time": 0.422,
+      "error": null,
+      "scenario": "Multiple rules - waiting period + exceeds sum insured"
+    }
+  ],
+  "generated_at": "2026-04-03T19:24:39.277249+00:00"
+}

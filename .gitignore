@@ -23,6 +23,7 @@ env/
 # Storage (generated at runtime)
 storage/faiss_indexes/*.index
 storage/faiss_indexes/*.pkl
+storage/claims/
 
 # Generated reports
 reports/*.pdf
