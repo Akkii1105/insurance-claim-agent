@@ -31,6 +31,7 @@ class Settings(BaseSettings):
     # ── FAISS ──
     faiss_index_dir: Path = Path("./storage/faiss_indexes")
     similarity_threshold: float = 0.45
+    faiss_similarity_threshold: float = 1.2
     top_k_results: int = 5
 
     model_config = {
