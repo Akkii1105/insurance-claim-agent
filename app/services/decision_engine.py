@@ -238,6 +238,7 @@ def process_claim(
     prior_claim_dates: list[date] | None = None,
     required_docs: list[str] | None = None,
     submitted_docs: list[str] | None = None,
+    all_chunks: list[PolicyChunk] | None = None,
 ) -> ClaimDecision:
     """Process an insurance claim end-to-end.
 
@@ -261,6 +262,7 @@ def process_claim(
         prior_claim_dates: Previous claim admission dates (for duplicate check).
         required_docs: Required supporting documents.
         submitted_docs: Actually submitted documents.
+        all_chunks: All policy chunks for fallback citation search.
 
     Returns:
         A fully populated ClaimDecision.
@@ -274,7 +276,9 @@ def process_claim(
     )
 
     # Step 2: Attach citations to FAIL rules missing them
-    line_item_results = attach_citations(line_item_results, matched_chunks_per_item)
+    line_item_results = attach_citations(
+        line_item_results, matched_chunks_per_item, all_chunks=all_chunks,
+    )
 
     # Step 3: Recompute approved amounts (most restrictive rule wins)
     for item_result in line_item_results:

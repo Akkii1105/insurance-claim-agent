@@ -151,6 +151,7 @@ async def process_claim_endpoint(
             prior_claim_dates=parsed_dates or None,
             required_docs=parsed_required or None,
             submitted_docs=parsed_submitted or None,
+            all_chunks=indexed_chunks,
         )
 
         # Step 10: Save decision

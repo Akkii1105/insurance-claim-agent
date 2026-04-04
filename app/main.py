@@ -21,10 +21,10 @@ async def lifespan(app: FastAPI):
     claims_dir = Path(settings.storage_dir) / "claims"
     claims_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"✓ {settings.app_name} started ({settings.app_env})")
+    print(f"[OK] {settings.app_name} started ({settings.app_env})")
     yield
     # ── Shutdown ──
-    print(f"✓ {settings.app_name} shutting down")
+    print(f"[OK] {settings.app_name} shutting down")
 
 
 app = FastAPI(

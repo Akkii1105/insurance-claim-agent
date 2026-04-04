@@ -77,6 +77,7 @@ def run_single_case(tc: dict) -> dict:
             bill=bill,
             meta=rule_config,
             matched_chunks_per_item=matched,
+            all_chunks=indexed_chunks,
         )
 
         elapsed = time.monotonic() - start
