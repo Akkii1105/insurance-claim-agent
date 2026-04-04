@@ -1,5 +1,7 @@
 # Python
 __pycache__/
+*.pyc
+*.pyo
 *.py[cod]
 *.egg-info/
 dist/
@@ -11,7 +13,7 @@ venv/
 .venv/
 env/
 
-# Environment
+# Environment variables (NEVER commit secrets)
 .env
 
 # IDE
@@ -20,19 +22,23 @@ env/
 *.swp
 *.swo
 
-# Storage (generated at runtime)
-storage/faiss_indexes/*.index
-storage/faiss_indexes/*.pkl
-storage/claims/
-
-# Generated reports
-reports/*.pdf
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Test
+# Test caches
 .pytest_cache/
 htmlcov/
 .coverage
+
+# Runtime storage (generated at runtime — not committed)
+storage/claims/
+reports/
+
+# FAISS index files (generated at runtime)
+*.faiss
+storage/faiss_indexes/*.index
+storage/faiss_indexes/*.pkl
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# NOTE: data/synthetic/ is intentionally NOT ignored — test data must be committed
+# NOTE: .env.example is intentionally NOT ignored — template must be committed
